@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html> <!--testee-->
+<head>
+  <meta charset="utf-8" />
+  <title>Tela de Login</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <script type="text/javascript" src="js/jquery-3.4.0.min.js"></script>
+  <script type ="text/javascript" src ="js/bootstrap.js"></script>
+</head>
+
+<body>
+
+    <!-- formulário de login -->
+    <form class="formulario" style="margin-top:50px">
+      <div class ="form-group">
+        <div class ="col-md-8 offset-md-4"> <!-- ocupa 8 colunas com espaçamento para a direita 2 e esqueda 2, total 8 -->
+          <label id "login">Login</label>
+          <input type="email" class="form-control" name ="email"placeholder="Seu email"required style="min-width:310px;">
+        </div>
+
+         <div class ="col-md-8 offset-md-4">
+           <label id = "senha">Senha</label>
+           <input type="password" class="form-control" name="senha" placeholder="Senha" required style="min-width:310px;">
+         </div>
+      <br/>
+
+      <div class ="col-md-4 offset-md-6">
+        <div class ="row">
+         <button type="submit" class="btn btn-primary">Entrar</button>
+         </div>
+        <!-- link para página de cadastro -->
+      <div class="col-md-10" id ="cadastra">
+        <a href="#modal-cad" style= "font-size:12px"><b>Cadastre-se <b/></a>
+      </div>
+      </div>
+  </form>
+
+<footer class="footer" style="background-color:#212529; bottom:0; margin-top:280px; height:50px;">
+  <div class ="container">
+    <p class ="texto" style="color:#F8F8FF">Rodapé</p>
+  </div>
+</footer>
+
+<!-- modal form cadastro -->
+<div id ="modal-cad" class ="modal-container">
+  <div class = "modal">
+    <h4 class ="modal-title">Formulário de Cadastro</h4>
+    <form>
+            oi
+    </form>
+  </div>
+</div>
+</body>
+</html>
